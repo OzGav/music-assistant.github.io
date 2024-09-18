@@ -11,9 +11,10 @@ nav:
     - integration/index.md
     - Installation: integration/installation.md
     - Voice Control: integration/voice.md
-    - Play Media Service Call: faq/massplaymedia.md
-    - Play Announcement Service Call: faq/massannounce.md
-    - Search Service Call: faq/masssearch.md
+    - Play Media Action: faq/massplaymedia.md
+    - Play Announcement Action: faq/massannounce.md
+    - Search Action: faq/masssearch.md
+    - Transfer Queue Action: faq/masstransfer.md
   - Companion App: companion-app.md
   - Usage: 
     - General: usage.md

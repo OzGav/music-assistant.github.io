@@ -1,6 +1,6 @@
-# MA search Service Call
+# MA search Action
 
-This service call does a global search across all providers 
+This action does a global search across all providers 
 
 ![image](../assets/screenshots/service-call/search1.png)
 

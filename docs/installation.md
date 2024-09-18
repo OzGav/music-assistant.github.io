@@ -57,8 +57,8 @@ ____________
 
 ## Usage and Notes
 
-- When running the Home Assistant add-on, you can access the webinterface from the add-on (a shortcut can be added to the sidebar) which is more secure than via the port (although the port can be exposed in the settings)
-- If you are running Music Assistant in docker, you need to access the webinterface at http://youripaddress:8095
+- When running the Home Assistant add-on, you can access the webinterface from the add-on (a shortcut can be added to the sidebar) which is more secure than via the port (although the port can be exposed (but not changed) in the settings)
+- If you are running Music Assistant in docker, you need to access the webinterface at http://youripaddress:8095. The port can be changed in the MA settings. If something else is using port 8095 then that must be shutdown until the MA port is changed.
 - No providers are installed initially. You must navigate to the MA settings and add the providers (Music and Players) that you use
 - Music from your music sources will be automatically loaded into the Music Assistant library. If you have multiple sources, they will be merged as one library
 - In this first implementation the UI centres around the concept of the [Library](usage.md), so your artists, albums, tracks, playlists and radio stations. You can BROWSE the various providers to add aditional items to your Library. In a later release options will be provided to browse the recommendations of the various streaming providers

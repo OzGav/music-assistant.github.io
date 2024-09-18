@@ -18,7 +18,8 @@ Music Assistant is a music library manager for your offline and online music sou
 - Keeps track of the entire music library in a compact database
 - Gapless, crossfade and volume normalization support for all players
 - Playback synchronisation is possible for supported players
-- Announcements during playback supported 
+- Announcements during playback supported
+- Transfer of playback between players supported
 - Truly hassle free streaming of your favourite music to players, no advanced knowledge required
 - Rich User interface (Progressive Web App) powered by ![logo](assets/icons/vue-js-logo.png){width=20 }VueJS 3
 
@@ -66,6 +67,7 @@ Connects Home Assistant to your Music Assistant Server to allow control from you
 [![Lokiberra](assets/team/lokiberra.png){ width=100 }](https://github.com/lokiberra "Kevin. Author of the Jellyfin provider")
 [![Mel](assets/team/melharbour.png){ width=100 }](https://github.com/melharbour "Mel. Core developer team")
 [![jc2k](assets/team/jc2k.png){ width=100 }](https://github.com/jc2k "John. Jellyfin Maintainer")
+[![diede](assets/team/diede.png){ width=100 }](https://github.com/Cyanogenbot "Diede. Author of the Bluesound provider")
 
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon

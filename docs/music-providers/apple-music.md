@@ -5,7 +5,6 @@ Music Assistant has support for [Apple Music](https://music.apple.com/)! Contrib
 !!! note
     - A paid subscription is required to add this Music Provider. 
     - Audio playback is not officially supported by Apple, use at your own risk
-    - This Music Provider is currently in beta (2.1+). Please report any issues [here](https://github.com/music-assistant/hass-music-assistant/issues).
 
 ## Features
 - Support for Artists, Albums, Tracks and Playlists

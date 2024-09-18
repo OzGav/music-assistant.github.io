@@ -36,8 +36,9 @@ Next install the Home Assistant Player Provider
 
 ## Service Calls
 
-The integration adds three service calls for use in scripts and automations. 
+The integration adds four actions for use in scripts and automations. 
 
 - [mass.play_media](../faq/massplaymedia.md)
 - [mass.play_annnouncement](../faq/massannounce.md)
 - [mass.search](../faq/masssearch.md)
+- [mass.transfer_queue](../faq/masstransfer.md)

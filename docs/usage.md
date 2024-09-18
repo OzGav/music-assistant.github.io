@@ -14,6 +14,8 @@ Music Assistant relies heavily on metadata to work well and it gets this informa
 
 Music Assistant never modifies the tags in the local files. Online metadata retrieval occurs when local data is lacking. MusicBrainz is only used for streaming providers (so not for local files) OR when the musicbrainz IDs are missing in local files and audiodb and/or fanarttv are enabled. At this time MusicBrainz is only used to get the musicbrainz id's, not for metadata itself.
 
+For users with local files with local artwork and also streaming providers, preferably add the local provider first and allow the sync to complete and all artwork to appear before adding the streaming providers. Not doing so can result in the streaming provider artwork to be preferred although this can be fixed by using the images section in the artist view.
+
 ## The Library
 
 The Music Assistant Library is a database containing details of the music which the user has indicated they are interested in listening to on a regular basis. It consists of information about Artists, Albums, Tracks, Playlists and Radio Stations which allows easy searching, display and cross referencing across the User Interface.

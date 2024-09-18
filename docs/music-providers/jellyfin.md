@@ -1,6 +1,6 @@
 # Jellyfin Provider ![Preview image](../assets/icons/jellyfin-logo.svg){ width=70 align=right }
 
-Music Assistant has support for music servers which work to the Jellyfin definition. This component is contributed and maintained by [lokiberra](https://github.com/lokiberra)
+Music Assistant has support for music servers which work to the Jellyfin definition. This component was contributed by [lokiberra](https://github.com/lokiberra) and maintained by lokiberra and [jc2k](https://github.com/jc2k)
 
 ## Features
 

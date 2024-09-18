@@ -5,7 +5,7 @@ description: Information Relevant to all Player Providers
 
 # Player Providers
 
-For specific player provider information refer to the relevant section in this document. When a player provider is enabled then the devices which support that protocol will be automatically discovered by Music Assistant. The following table summarises player capabilities
+For specific player provider information refer to the relevant section in this document. When a player provider is enabled then the devices which support that protocol will be automatically discovered by Music Assistant. The following table summarises player capabilities. Note that DLNA and HA players can suffer from poor implementation of required standards. If these player types do not work well and the device supports other protocols then use the other protocol.
 
 ![Preview image](../assets/player-provider-summary.png){ width = 600 }
 

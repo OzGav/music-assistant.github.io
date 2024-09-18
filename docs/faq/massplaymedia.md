@@ -1,6 +1,6 @@
-# MA play_media Service Call
+# MA play_media Action
 
-This service calls allows you to finely select the media to play. Create your service call or automation via the HA GUI or YAML
+This action allows you to finely select the media to play. Create your service call or automation via the HA GUI or YAML
 
 You can use a name together with the media type
 

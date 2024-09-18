@@ -13,8 +13,8 @@ Music Assistant has support for playing to media player entities in Home Assista
 
 - This player provider is not enabled by default and must be added via MA settings however before it is available you must setup the Home Assistant Plug-in Provider
 - In the provider settings, select which players you want to use
-- You can only use players that support "play_media", other players will be filtered out
+- Only players that support `play_media` can be used, other players will be filtered out
 - MA players will be filtered out
 - Synchronisation between this player type and any others is not possible
-- Enabling [flow mode](../faq/tech-info/#track-queueing) may solve playback issues however it might come with the side effect of disabling actual physical buttons and/or display of metadata on the device itself
 - In order to support a greater number of players, different streaming profiles are available. If the player doesn't work, stops mid stream or has other playback issues then change the player setting `HTTP Profile used for sending audio` and try each option until the player works
+- If there is no metadata sent to the player then you can trying enabling the option `Try to ingest metadata into stream`

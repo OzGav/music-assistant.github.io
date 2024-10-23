@@ -11,6 +11,7 @@ nav:
     - integration/index.md
     - Installation: integration/installation.md
     - Voice Control: integration/voice.md
+    - Announcements: integration/announcements.md
     - Play Media Action: faq/massplaymedia.md
     - Play Announcement Action: faq/massannounce.md
     - Search Action: faq/masssearch.md

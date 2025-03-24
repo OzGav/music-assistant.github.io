@@ -220,9 +220,9 @@ All of these commands have an equivalent HA action and therefore these commands 
 | player_queues/get                  | queue_id                             | Returns current and next item in the queue |
 | player_queues/all                  | Nil                                  | Return queue details for all players |
 | player_queues/dont_stop_the_music  | queue_id<br>dont_stop_the_music_enabled  |   |
-| player_queues/move_item            | queue_id<br>queue_item_id<br>pos_shift*  | Return list of items in the queue |
-| player_queues/delete_item          | queue_id<br>item_id_or_index         | Return list of items in the queue |
-| player_queues/play_index           | queue_id<br>index<br>seek_position*<br>fade_in*<br>debounce*        | Return list of items in the queue |
+| player_queues/move_item            | queue_id<br>queue_item_id<br>pos_shift*  | Move items within the queue |
+| player_queues/delete_item          | queue_id<br>item_id_or_index         | Delete item from the queue |
+| player_queues/play_index           | queue_id<br>index<br>seek_position*<br>fade_in*<br>debounce*        | Commence playing a queue from a specified point |
 
 Optional arguments are indicated by an asterisk.
 

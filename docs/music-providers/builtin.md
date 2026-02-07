@@ -20,3 +20,16 @@ For each of the builtin playlists there is a toggle to enable or disable them.
 3. Add the full URL including http:// or https:// and optionally a custom name and image URL.
 
 After completing step 3 the track or station will become available in the respective view.
+
+## Known Issues / Notes
+
+**Radio Stream Artist Artwork**. When playing radio streams, Music Assistant can display artist images instead of the station logo:
+
+  - Requires "Artist - Title" format in the stream metadata (ICY or HLS)
+  - In-Library artists take priority - if the artist exists in the MA library, that image will be used
+  - Falls back to TheAudioDB for artist artwork if not in the MA library
+  - Station logo is displayed when:
+    - No artist/title metadata is available from the stream
+    - The artist cannot be found in the MA library or on TheAudioDB
+    - An advertisement is detected in the stream
+  - Results are cached to minimize external API calls

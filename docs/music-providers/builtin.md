@@ -23,10 +23,11 @@ After completing step 3 the track or station will become available in the respec
 
 ## Known Issues / Notes
 
-**Radio Stream Artist Artwork**. When playing radio streams, Music Assistant can display a;bum or artist images instead of the station logo:
+**Radio Stream Artist Artwork**. When playing radio streams, Music Assistant can display album or artist images instead of the station logo:
 
 - Requires "Artist - Title" format in the stream metadata (ICY or HLS)
 - In-Library imagery is used if available
+- The album for the original release of the track is prioritised for display
 - If a unique studio album is identified on MusicBrainz, album artwork is used (via TheAudioDB/Fanart.tv)
 - Falls back to artist artwork from TheAudioDB/Fanart.tv
 - Station logo is displayed when:
